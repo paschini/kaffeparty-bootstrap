@@ -1,0 +1,25 @@
+{
+  "name": "kaffeparty-bootstrap",
+  "version": "1.0.0",
+  "description": "En första prototyp till företagssida",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kaffeparty",
+    "lexicon"
+  ],
+  "author": "Camila Paschini",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.94.2",
+    "vite": "^7.2.6"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
+  }
+}

@@ -1,0 +1,84 @@
+// Import all of Bootstrap’s CSS
+@import "bootstrap/scss/bootstrap";
+
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+:root {
+  /* Light theme coffee colors */
+  --coffee-bg: #F8F5F2;
+  --coffee-surface: #a9b6a3;
+  --coffee-surface-dark: #8D9B86FF;
+  --coffee-text: #2B241F;
+  --coffee-accent: #A77F5B;
+  --coffee-accent-dark: #6B4F3A;
+}
+
+[data-theme="dark"] {
+  /* Dark theme */
+  --coffee-bg: #2B241F;
+  --coffee-surface: #2e3b2c;
+  --coffee-surface-dark: #8D9B86FF;
+  --coffee-text: #F8F5F2;
+  --coffee-accent: #C8A68C;
+  --coffee-accent-dark: #A77F5B;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--coffee-bg);
+  color: var(--coffee-text);
+}
+
+ header.header-logo {
+  color: var(--coffee-accent-dark);
+}
+
+nav.navbar {
+  color: var(--coffee-accent) !important;
+  background-color: var(--coffee-surface) !important;
+  padding-bottom: 0;
+}
+
+nav a.nav-link {
+  color: var(--coffee-accent) !important;
+  margin: -16px 0 !important;
+  padding: 15px 40px !important;
+  border-radius: 0 !important;
+  &:hover {
+    background-color: var(--coffee-accent-dark) !important;
+  }
+}
+
+nav a.nav-link.active {
+  color: var(--coffee-accent-dark) !important;
+  background-color: var(--coffee-surface-dark) !important;
+}
+
+nav li.nav-item {
+  margin: 0;
+}
+
+a {
+  color: var(--coffee-accent);
+  &:hover { color: var(--coffee-accent-dark) };
+}
+
+section {
+  background-color: var(--coffee-surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+footer a.nav-link {
+  color: var(--coffee-accent) !important;
+  &:hover { color: var(--coffee-accent-dark) !important; };
+}
+
+footer .text-body-secondary {
+  color: var(--coffee-text) !important;
+}

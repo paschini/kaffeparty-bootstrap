@@ -17,28 +17,28 @@ Ni skall skapa en webbsida med tre sidor: “Index”, “Produkter” och “Om
 
 **Index:**
 - Updelad i fyra huvud-divar 
-  - Vilka är vi? 
-  - Vad gör vi? 
-  - Varför oss? 
-  - Kaffeparty, så fungerar det!
+  - [ ] Vilka är vi? 
+  - [ ] Vad gör vi? 
+  - [ ] Varför oss? 
+  - [ ] Kaffeparty, så fungerar det!
 - Dess divar skall innehålla utfyllnadstexter [Ipsum](https://www.lipsum.com/) och placeholderbilder. En snabb 
 googlesökning ger bra bilder för en prototyp, men om ni har ont om tid eller letar väldigt specifika storlekar är 
 [Picsum](https://picsum.photos/) ett smidigt tips.
 
 **Produkter:**
-- Separera Kaffeparty och Kaffemaskiner. 
-- Lista kaffemaskiner, olika modeller med texter och bild. 
-- Layouten ska vara delad i två delar. 
-  - Kaffemaskiner 
-    - Listar kaffemaskiner i ett rutnät 
-    - Information, modell och pris syns tydligt 
-  - Kaffeparty 
-    - Uppdelad i två delar: Företag och Privatpersoner
+- [ ] Separera Kaffeparty och Kaffemaskiner. 
+- [ ] Lista kaffemaskiner, olika modeller med texter och bild. 
+- [ ] Layouten ska vara delad i två delar. 
+  - [ ] Kaffemaskiner 
+    - [ ] Listar kaffemaskiner i ett rutnät 
+    - [ ] Information, modell och pris syns tydligt 
+  - [ ] Kaffeparty 
+    - [ ] Uppdelad i två delar: Företag och Privatpersoner
 
 **Om oss/Kontakt:**
-- Innehåller mer information om företaget. 
-- Kontaktuppgifter med bild, telefonnummer, namn och e-post för VD 
-- Kontaktuppgifter med bild, telefonnummer, namn och mejl för HR-ansvarig
+- [ ] Innehåller mer information om företaget. 
+- [ ] Kontaktuppgifter med bild, telefonnummer, namn och e-post för VD 
+- [ ] Kontaktuppgifter med bild, telefonnummer, namn och mejl för HR-ansvarig
 
 Sidan skall fungera lika bra på mobil som på en vanlig dator. Denna övning är medvetet lämnad ganska öppen och är tänkt
 som en möjlighet att experimentera lite och testa olika delar av bootstrap.
