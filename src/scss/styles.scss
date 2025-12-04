@@ -1,3 +1,13 @@
+/* Coffee theme Bootstrap colors */
+$primary: #A6C3A4;
+$secondary: #A77F5B;
+$success: #6F8F6A;
+$info: #C8A68C;
+$warning: #F5D08A;
+$danger: #D96161;
+$light: #2B241F;
+$dark: #8D9B86FF;
+
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";
 
@@ -38,9 +48,6 @@ body {
  header.header-logo {
   color: var(--coffee-accent-dark);
    background-color: var(--coffee-text);
-   //position: sticky;
-   //top: 0;
-   //z-index: 1040;
 }
 
 nav.navbar {
@@ -48,9 +55,6 @@ nav.navbar {
   background-color: var(--coffee-surface) !important;
   padding-bottom: 0;
   top: 60px;
-  //position: sticky;
-  //top: 64px; // samma höjd som headern
-  //z-index: 1030;
 }
 
 nav a.nav-link {
@@ -116,3 +120,9 @@ footer .text-body-secondary {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
+
+.card {
+  background-color: var(--coffee-surface-dark) !important;
+  & a { color: var(--coffee-text) !important; }
+}
+

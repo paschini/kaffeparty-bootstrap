@@ -1,6 +1,9 @@
+# Vite
+dist/
+
+# Node/npm
+node_modules/
+
 # IntelliJ
 .idea/
 *.iml
-
-# Node/npm
-/node_modules/

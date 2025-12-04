@@ -10,25 +10,25 @@ tillfälle att köpa produkterna.
 Ni skall skapa en webbsida med tre sidor: “Index”, “Produkter” och “Om Oss”
 
 **För samtliga sidor(3st):** 
-- Ett passande och enhetligt färgtema 
-- Header; med logga eller företagsnamn (eller båda). 
-- Navbar; med länkar till samtliga sidor 
-- Footer; med copyright datum och webmaster
+- [x] Ett passande och enhetligt färgtema 
+- [x] Header; med logga eller företagsnamn (eller båda). 
+- [x] Navbar; med länkar till samtliga sidor 
+- [x] Footer; med copyright datum och webmaster
 
 **Index:**
 - Updelad i fyra huvud-divar 
-  - [ ] Vilka är vi? 
-  - [ ] Vad gör vi? 
-  - [ ] Varför oss? 
-  - [ ] Kaffeparty, så fungerar det!
+  - [x] Vilka är vi? 
+  - [x] Vad gör vi? 
+  - [x] Varför oss? 
+  - [x] Kaffeparty, så fungerar det!
 - Dess divar skall innehålla utfyllnadstexter [Ipsum](https://www.lipsum.com/) och placeholderbilder. En snabb 
 googlesökning ger bra bilder för en prototyp, men om ni har ont om tid eller letar väldigt specifika storlekar är 
 [Picsum](https://picsum.photos/) ett smidigt tips.
 
 **Produkter:**
-- [ ] Separera Kaffeparty och Kaffemaskiner. 
+- [x] Separera Kaffeparty och Kaffemaskiner. 
 - [ ] Lista kaffemaskiner, olika modeller med texter och bild. 
-- [ ] Layouten ska vara delad i två delar. 
+- [x] Layouten ska vara delad i två delar. 
   - [ ] Kaffemaskiner 
     - [ ] Listar kaffemaskiner i ett rutnät 
     - [ ] Information, modell och pris syns tydligt 
@@ -36,9 +36,10 @@ googlesökning ger bra bilder för en prototyp, men om ni har ont om tid eller l
     - [ ] Uppdelad i två delar: Företag och Privatpersoner
 
 **Om oss/Kontakt:**
-- [ ] Innehåller mer information om företaget. 
-- [ ] Kontaktuppgifter med bild, telefonnummer, namn och e-post för VD 
-- [ ] Kontaktuppgifter med bild, telefonnummer, namn och mejl för HR-ansvarig
+- [x] Innehåller mer information om företaget. 
+- [x] Kontaktuppgifter med bild, telefonnummer, namn och e-post för VD 
+- [x] Kontaktuppgifter med bild, telefonnummer, namn och mejl för HR-ansvarig
 
-Sidan skall fungera lika bra på mobil som på en vanlig dator. Denna övning är medvetet lämnad ganska öppen och är tänkt
+
+- [x] Sidan skall fungera lika bra på mobil som på en vanlig dator. Denna övning är medvetet lämnad ganska öppen och är tänkt
 som en möjlighet att experimentera lite och testa olika delar av bootstrap.

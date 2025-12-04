@@ -17,52 +17,27 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 py-3 fixed-top">
   <ul class="navbar-nav mr-auto nav-pills">
     <li class="nav-item">
-      <a class="nav-link active" href="index.html">Hem</a>
+      <a class="nav-link" href="index.html">Hem</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="about.html">Om oss</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="products.html">Produkter</a>
+      <a class="nav-link active" href="products.html">Produkter</a>
     </li>
   </ul>
 </nav>
 
 <div class="container my-5 py-5">
-  <div class=" row row-cols-1 row-cols-md-2">
-  <div class="col py-5">
-    <img src="images/pexels-tyler-nix-1259808-2396220.jpg" alt="Kaffeparty" class="img-fluid rounded shadow-lg" />
-  </div>
-
-  <div class="col py-5">
-    <section id="kaffeparty-who" class="py-xxl-5 mb-5">
-      <h1 class="fw-bold fst-italic">Vilka är vi?</h1>
-      <p>
-        Vi är ett passionerat fika-företag som älskar riktigt gott kaffe och gemenskapen runt en välbryggd kopp.
-        Förutom att vi hyr ut högkvalitativa kaffemaskiner till både företag och privatpersoner, arbetar vi även med att
-        sprida kunskap och glädje kring olika kaffesorter och hur de bäst avnjuts.
-      </p>
-    </section>
-
-    <section id="kaffeparty-what" class="col py-5 mb-5">
-      <h1 class="fw-bold fst-italic">Vad gör vi?</h1>
-      <p>
-        Vi erbjuder ett brett sortiment av noggrant utvalda kaffeprodukter och professionella kaffemaskiner,
-        anpassade efter dina behov. Dessutom arrangerar vi vårt mycket omtyckta kaffeparty-event där du och dina gäster
-        får upptäcka en mängd olika kaffesorter, provsmaka dem tillsammans med mörk choklad och få möjligheten att köpa
-        era favoriter direkt på plats.
-      </p>
-    </section>
-
-    <section id="kaffeparty-why" class="col py-5 mb-5">
-      <h1 class="fw-bold fst-italic">Varför oss?</h1>
-      <p>
-        Vi brinner för kvalitet, upplevelser och personlig service. Hos oss får du inte bara riktigt gott kaffe – du får
-        en hel kaffestund som skapar minnen. Vårt uppskattade kaffeparty, vårt breda sortiment och vår erfarenhet gör oss
-        till ett självklart val för dig som vill erbjuda något extra, vare sig det gäller kontoret, eventet eller hemmamys.
-      </p>
-    </section>
-  </div>
+  <div class="d-flex align-items-start py-5">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-kaffeparty-tab" data-bs-toggle="pill" data-bs-target="#v-pills-kaffeparty" type="button" role="tab" aria-controls="v-pills-kaffeparty" aria-selected="true">Kaffeparty</button>
+      <button class="nav-link" id="v-pills-kaffemaskiner-tab" data-bs-toggle="pill" data-bs-target="#v-pills-kaffemaskiner" type="button" role="tab" aria-controls="v-pills-kaffemaskiner" aria-selected="false">Kaffemaskiner</button>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-kaffeparty" role="tabpanel" aria-labelledby="v-pills-kaffeparty-tab" tabindex="0">partey</div>
+      <div class="tab-pane fade" id="v-pills-kaffemaskiner" role="tabpanel" aria-labelledby="v-pills-kaffemaskiner-tab" tabindex="0">maskiner</div>
+    </div>
   </div>
 </div>
 
