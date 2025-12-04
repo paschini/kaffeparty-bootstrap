@@ -37,12 +37,20 @@ body {
 
  header.header-logo {
   color: var(--coffee-accent-dark);
+   background-color: var(--coffee-text);
+   //position: sticky;
+   //top: 0;
+   //z-index: 1040;
 }
 
 nav.navbar {
   color: var(--coffee-accent) !important;
   background-color: var(--coffee-surface) !important;
   padding-bottom: 0;
+  top: 60px;
+  //position: sticky;
+  //top: 64px; // samma höjd som headern
+  //z-index: 1030;
 }
 
 nav a.nav-link {
