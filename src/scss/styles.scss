@@ -31,9 +31,9 @@ $bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
   --coffee-surface: #2e3b2c;
   --coffee-surface-dark: #8D9B86FF;
   --coffee-text: #F8F5F2;
-  --coffee-accent-light: #503e32;
-  --coffee-accent: #C8A68C;
-  --coffee-accent-dark: #A77F5B;
+  --coffee-accent-light: #a28f80;
+  --coffee-accent: #6c5a4c;
+  --coffee-accent-dark: #463427;
 }
 
 html, body {
@@ -43,6 +43,7 @@ html, body {
 
 body {
   background-color: var(--coffee-bg);
+  color: var(--coffee-text);
 }
 
  header.header-logo {
@@ -56,8 +57,12 @@ nav.navbar {
   top: 60px;
 }
 
+nav a.navbar-brand {
+  color: var(--coffee-text) !important;
+}
+
 nav a.nav-link {
-  color: var(--coffee-accent) !important;
+  color: var(--coffee-accent-light) !important;
   margin: -15px 0 !important;
   padding: 16px 40px !important;
   border-radius: 0 !important;
@@ -126,8 +131,8 @@ footer .text-body-secondary {
 }
 
 .card {
-  background-color: var(--coffee-accent-light) !important;
-  & a { color: var(--coffee-text) !important; }
+  background-color: var(--coffee-accent-dark) !important;
+  color: var(--coffee-accent-light) !important;
 }
 
 .card-img-top {
