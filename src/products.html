@@ -28,18 +28,495 @@
   </ul>
 </nav>
 
-<div class="container my-5 py-5">
-  <div class="d-flex align-items-start py-5">
-    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <button class="nav-link active" id="v-pills-kaffeparty-tab" data-bs-toggle="pill" data-bs-target="#v-pills-kaffeparty" type="button" role="tab" aria-controls="v-pills-kaffeparty" aria-selected="true">Kaffeparty</button>
-      <button class="nav-link" id="v-pills-kaffemaskiner-tab" data-bs-toggle="pill" data-bs-target="#v-pills-kaffemaskiner" type="button" role="tab" aria-controls="v-pills-kaffemaskiner" aria-selected="false">Kaffemaskiner</button>
+<div class="container-fluid m-0 my-5 px-0">
+  <nav id="navbar-products" class="navbar bg-body-tertiary px-3 mb-3 fixed-top">
+    <a class="navbar-brand" href="#">Kaffeparty och Maskiner</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">Privat person</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Företag</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Kaffemaskiner</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">hemma</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">kontoret</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">kaféer</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-products"
+      data-bs-root-margin="1000px 0px 0px 0px"
+      data-bs-smooth-scroll="true"
+      class="scrollspy bg-body-tertiary my-5 py-5 p-3 rounded-2"
+      tabindex="0"
+  >
+    <h4 id="scrollspyHeading1" class="pt-5 mt-5" >Kaffeparty hemma hos dig</h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Kaffeparty hemma hos dig -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-yasin-onus-520099596-32909999.jpg" class="card-img-top"
+               alt="Kaffeparty hemma hos dig">
+          <div class="card-body">
+            <h5 class="card-title">Kaffeparty hemma hos dig</h5>
+            <p class="card-text">
+              Vi tar med utrustning, kaffebönor, smakprover och mörk choklad. Perfekt för födelsedagar,
+              middagar, möhippor eller familjekvällar.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Pris: 899 kr</span>
+            <button class="btn btn-primary">Boka</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Uthyrning av kaffemaskin -->
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="images/pexels-mehmetakifarts-8095759-33197820.jpg" class="card-img-top" alt="Kaffemaskin uthyrning">
+          <div class="card-body">
+            <h5 class="card-title">Uthyrning av kaffemaskin</h5>
+            <p class="card-text">
+              Hyr en professionell kaffemaskin för helg, fest eller högtid. Levereras med bönor
+              och instruktioner. Välj till service för maximal bekvämlighet.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Från: 499 kr / dygn</span>
+            <button class="btn btn-primary">Boka</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Presentboxar & kaffepaket -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-nhavantuonglai-34151699.jpg" class="card-img-top" alt="Presentboxar">
+          <div class="card-body">
+            <h5 class="card-title">Presentboxar & kaffepaket</h5>
+            <p class="card-text">
+              Smakboxar med noga utvalda kaffesorter och choklad. Finns i “Morgonmys”, “Kvällsfika”
+              och “Lyxboxen”.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Från: 249 kr</span>
+            <button class="btn btn-primary">Köp</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Privat barista -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-chevanon-302896.jpg" class="card-img-top" alt="Privat barista">
+          <div class="card-body">
+            <h5 class="card-title">Privat barista</h5>
+            <p class="card-text">
+              Boka en barista som serverar cappuccino, latte och bryggkaffe direkt på din fest.
+              Två timmar med professionell utrustning ingår.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Pris: 1 499 kr</span>
+            <button class="btn btn-primary">Boka</button>
+          </div>
+        </div>
+      </div>
+
+      <!--   Hämtbar kaffeprovning To-Go   -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-olly-3796810.jpg" class="card-img-top" alt="Kaffeprovning To-Go">
+          <div class="card-body">
+            <h5 class="card-title">Kaffeprovning To-Go</h5>
+            <p class="card-text">
+              En färdig smakbox med fyra exklusiva kaffesorter och matchande choklad. Perfekt för hemmakväll,
+              dejt, eller en mysig helg. Innehåller smakguide och bryggtips.
+            </p>
+
+            <p class="card-text">
+              Kommer också med en kaffeprovning anteckningsbok på första bokningen.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Pris: 199 kr</span>
+            <button class="btn btn-primary">Köp</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Abonnemang -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/coffee-subscription-2048px-3137.jpg.webp" class="card-img-top" alt="Kaffeabonnemang">
+          <div class="card-body">
+            <h5 class="card-title">Abonnemang – Månadens Bönor</h5>
+            <p class="card-text">
+              Få färskrostat kaffe hem till dörren varje månad. Vi väljer ut en unik sort med spännande
+              smakprofil, perfekt för dig som vill upptäcka nya favoriter.
+            </p>
+            <p class="card-text">
+              Få färskrostat kaffe hem till dörren varje månad. Vi väljer ut en unik sort med spännande
+              smakprofil, perfekt för dig som vill upptäcka nya favoriter.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Från: 129 kr / månad</span>
+            <button class="btn btn-primary">Prenumerera</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="tab-content" id="v-pills-tabContent">
-      <div class="tab-pane fade show active" id="v-pills-kaffeparty" role="tabpanel" aria-labelledby="v-pills-kaffeparty-tab" tabindex="0">partey</div>
-      <div class="tab-pane fade" id="v-pills-kaffemaskiner" role="tabpanel" aria-labelledby="v-pills-kaffemaskiner-tab" tabindex="0">maskiner</div>
+
+    <h4 id="scrollspyHeading2" class="pt-5">Tillsammans i kontoret</h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Kaffecatering -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-quang-nguyen-vinh-222549-2159074.jpg" class="card-img-top" alt="Kaffeabonnemang">
+          <div class="card-body">
+            <h5 class="card-title">Kaffecatering</h5>
+            <p class="card-text">
+              Vi levererar färskmalet kaffe, termosbrygg, varm choklad och te direkt till kontoret. Perfekt för
+              måndagsmöten, frukostar och teamdagar.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Från: 899 kr / tillfälle</span>
+            <button class="btn btn-primary">Boka</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Konferensservice -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-larissafarber-30546464.jpg" class="card-img-top" alt="Kaffeabonnemang">
+          <div class="card-body">
+            <h5 class="card-title">Konferensservice – Kaffe & Fika</h5>
+            <p class="card-text">
+              För event och större möten.
+            </p>
+            <p class="card-text">
+              Komplett fikapaket med kaffe, te, bakverk och frukt. Servispersonal kan bokas till för löpande påfyllning
+              under hela dagen.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Från: 149 kr / person</span>
+            <button class="btn btn-primary">Boka</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kaffekurs -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-quang-nguyen-vinh-222549-2159074.jpg" class="card-img-top" alt="Kaffeabonnemang">
+          <div class="card-body">
+            <h5 class="card-title">Personalens Kaffekurs</h5>
+            <p class="card-text">
+              En miniworkshop på företaget.
+            </p>
+            <p class="card-text">
+              Lär er om bryggmetoder, smakprofiler, bönor och hur man gör perfekt kaffe på jobbet. Avslutas med
+              provsmakning.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">2 499 kr för grupper upp till 12 personer</span>
+            <button class="btn btn-primary">Boka</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Abonemang -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/coffee-subscription-2048px-3205-2x1-1.jpg.webp" class="card-img-top" alt="Kaffeabonnemang">
+          <div class="card-body">
+            <h5 class="card-title">Företagsabonnemang – Månadens Bönor</h5>
+            <p class="card-text">
+              För arbetsplatser som vill ha variation i kaffemaskinen.
+            </p>
+            <p class="card-text">
+              Vi levererar specialkaffe varje månad baserat på ert smakformulär. Passar både stora och små
+              arbetsplatser.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Från 299 kr / månad</span>
+            <button class="btn btn-primary">Boka</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Uthyrning av kaffemaskin -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-nellricho-362216.jpg" class="card-img-top" alt="Kaffeabonnemang">
+          <div class="card-body">
+            <h5 class="card-title">Uthyrning av kaffemaskin – Premium företagsmodell (exklusivt för företag)</h5>
+            <p class="card-text">
+              En tjänst som enda företag får.
+            </p>
+            <p class="card-text">
+              Hyr vår robusta företagsmaskin med automatisk rengöring, stor bönbehållare och hög kapacitet. Inkluderar
+              service, filter och reservdelar.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Från 1 299 kr / månad</span>
+            <button class="btn btn-primary">Boka</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kundevent -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-bestasya-3556686.jpg" class="card-img-top" alt="Kaffeabonnemang">
+          <div class="card-body">
+            <h5 class="card-title">Kundevent – Barista på plats</h5>
+            <p class="card-text">
+              För butiksevent, showroom och öppet hus.
+            </p>
+            <p class="card-text">
+              En professionell barista serverar cappuccino, latte, espresso och chai till dina kunder. Vi tar med
+              maskiner, bönor och dekorationer.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Från 3 499 kr / event</span>
+            <button class="btn btn-primary">Boka</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h4 id="scrollspyHeading3" class="pt-5">Kaffemaskiner till hemma</h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Hem 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/compact-brewer.jpeg" class="card-img-top" alt="Compact Home Brewer">
+          <div class="card-body">
+            <h5 class="card-title">Compact Home Brewer</h5>
+            <p class="card-text">Kompakt helautomatisk espressomaskin för små kök. Snabb uppvärmning och lätt att
+              rengöra.</p>
+            <ul class="small mb-0">
+              <li>Kapacitet: 6 koppar</li>
+              <li>Funktioner: Automatisk brygg</li>
+              <li>Perfekt för: vardagskaffe</li>
+            </ul>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Pris: 3 199 kr</span>
+            <button class="btn btn-primary">Köp</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hem 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/dv_web_D18000127465863.webp" class="card-img-top" alt="Pour-Over Elektrisk">
+          <div class="card-body">
+            <h5 class="card-title">Siemmens automatisk</h5>
+            <p class="card-text">
+              Siemens EQ900 Plus automatiska espressomaskin TQ903RZ3 är en kaffeälskares dröm tack vare sin eGrinder
+              med 6 inställningar, 19 bars munstyckstryck, barista och komfortlägen för precis rätt mängd kontroll,
+              30 specialiteter och automatisk rengöring.
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Pris: 1 299 kr</span>
+            <button class="btn btn-primary">Köp</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hem 3 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/sage-best-in-test-espresso-machine.webp" class="card-img-top" alt="AeroPress Pro">
+          <div class="card-body">
+            <h5 class="card-title">AeroPress Pro</h5>
+            <p class="card-text">
+              anuell men lättanvänd. Snabb rengöring och fantastisk extraktion — favorit för
+              kaffeentusiaster.
+            </p>
+            <ul class="small mb-0">
+              <li>Kapacitet: 1–2 koppar per bryggning</li>
+              <li>Funktioner: Portabel, enkel doskontroll</li>
+              <li>Perfekt för: små hushåll, resor och present</li>
+            </ul>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Pris: 399 kr</span>
+            <button class="btn btn-primary">Köp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h4 id="scrollspyHeading4" class="pt-5">Kaffemaskiner till kontoret</h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Kontor 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/office-machine-corner.jpg.webp" class="card-img-top" alt="Office Pro 20">
+          <div class="card-body">
+            <h5 class="card-title">Office Pro 20</h5>
+            <p class="card-text">Högkapacitetsautomat med flera dryckesval, snabbställd för att klara ett kontor på upp till 30 personer.</p>
+            <ul class="small mb-0">
+              <li>Kapacitet: upp till 30 koppar/dag</li>
+              <li>Funktioner: Automatisk rengöring, touch-panel</li>
+              <li>Perfekt för: medelstora kontor</li>
+            </ul>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Hyra: från 1 299 kr / mån</span>
+            <button class="btn btn-primary">Boka demo</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kontor 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/Schaerer_Coffee_Art_Plus_11.jpg" class="card-img-top" alt="BeanStation 400">
+          <div class="card-body">
+            <h5 class="card-title">BeanStation 400</h5>
+            <p class="card-text">Modulär maskin med stor bönbehållare, idealisk för coworking och stora öppna ytor.</p>
+            <ul class="small mb-0">
+              <li>Kapacitet: kontinuerlig drift</li>
+              <li>Funktioner: flera bönfack, anpassningsbara recept</li>
+              <li>Perfekt för: stora team och receptioner</li>
+            </ul>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Hyra: från 1 799 kr / mån</span>
+            <button class="btn btn-primary">Boka demo</button>
+          </div>
+        </div>
+      </div>
+
+        <!-- Kontor 3 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="images/dv_web_D1800013234199.webp" class="card-img-top" alt="QuickServe Compact">
+            <div class="card-body">
+              <h5 class="card-title">QuickServe Compact</h5>
+              <p class="card-text">Platsbesparande och snabb — passar små kontor som vill ha god automation utan stor maskin.</p>
+              <ul class="small mb-0">
+                <li>Kapacitet: 10–20 koppar/dag</li>
+                <li>Funktioner: snabbvärme, enkel service</li>
+                <li>Perfekt för: små team och mötesrum</li>
+              </ul>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <span class="fw-bold">Hyra: från 899 kr / mån</span>
+              <button class="btn btn-primary">Boka demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <h4 id="scrollspyHeading5" class="pt-5">Kaffemaskiner för professionella baristor & kaféer</h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Pro 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-chevanon-324028.jpg" class="card-img-top" alt="Barista Elite 2-grupp">
+          <div class="card-body">
+            <h5 class="card-title">Barista Elite – 2-grupp</h5>
+            <p class="card-text">Fullprofessionell espressomaskin med två grupper, PID-styrning och proffspump för jämn extraktion.</p>
+            <ul class="small mb-0">
+              <li>Kapacitet: hög volym, kafébruk</li>
+              <li>Funktioner: PID, dubbla boiler, proffsdoserare</li>
+              <li>Perfekt för: kaféer och baristor</li>
+            </ul>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Pris (ny): från 48 000 kr</span>
+            <button class="btn btn-primary">Kontakta försäljning</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pro 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-marta-dzedyshko-1042863-2775827.jpg" class="card-img-top" alt="Commercial Steamer XL">
+          <div class="card-body">
+            <h5 class="card-title">Commercial Steamer XL</h5>
+            <p class="card-text">Extrem kapacitet för busy shops — snabb ångproduktion och robust konstruktion för daglig drift.</p>
+            <ul class="small mb-0">
+              <li>Kapacitet: mycket hög</li>
+              <li>Funktioner: snabb ånga, tålig konstruktion</li>
+              <li>Perfekt för: stora kafékedjor</li>
+            </ul>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Pris: från 65 000 kr</span>
+            <button class="btn btn-primary">Kontakta försäljning</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pro 3 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pexels-fotios-photos-1524336.jpg" class="card-img-top" alt="Pro Grinder & Doser">
+          <div class="card-body">
+            <h5 class="card-title">Pro Grinder & Doser</h5>
+            <p class="card-text">Professionell kvarn med steglös dosering och stabil motor — viktig partner för konsekvent espresso.</p>
+            <ul class="small mb-0">
+              <li>Kapacitet: konstant malning för kaféer</li>
+              <li>Funktioner: steglös dosering, avkylning</li>
+              <li>Perfekt för: baristor som vill ha precision</li>
+            </ul>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <span class="fw-bold">Pris: från 19 500 kr</span>
+            <button class="btn btn-primary">Kontakta försäljning</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+
+<!--<div class="container my-5 py-5">-->
+<!--  <button type="button" class="btn btn-success" data-mdb-ripple-init>Success</button>-->
+<!--  <button type="button" class="btn btn-danger" data-mdb-ripple-init>Danger</button>-->
+<!--  <button type="button" class="btn btn-warning" data-mdb-ripple-init>Warning</button>-->
+<!--  <button type="button" class="btn btn-info" data-mdb-ripple-init>Info</button>-->
+<!--  <button type="button" class="btn btn-light" data-mdb-ripple-init data-mdb-ripple-color="dark">Light</button>-->
+<!--  <button type="button" class="btn btn-dark" data-mdb-ripple-init>Dark</button>-->
+<!--  <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init data-mdb-ripple-color="dark">Primary</button>-->
+<!--  <button type="button" class="btn btn-outline-secondary" data-mdb-ripple-init data-mdb-ripple-color="dark">Secondary</button>-->
+<!--  <button type="button" class="btn btn-outline-success" data-mdb-ripple-init data-mdb-ripple-color="dark">Success</button>-->
+<!--  <button type="button" class="btn btn-outline-danger" data-mdb-ripple-init data-mdb-ripple-color="dark">Danger</button>-->
+<!--  <button type="button" class="btn btn-outline-warning" data-mdb-ripple-init data-mdb-ripple-color="dark">Warning</button>-->
+<!--  <button type="button" class="btn btn-outline-info" data-mdb-ripple-init data-mdb-ripple-color="dark">Info</button>-->
+<!--  <button type="button" class="btn btn-outline-light" data-mdb-ripple-init data-mdb-ripple-color="dark">Light</button>-->
+<!--  <button type="button" class="btn btn-outline-dark" data-mdb-ripple-init data-mdb-ripple-color="dark">Dark</button>-->
+<!--</div>-->
 
 <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
   <div class="col mb-1 px-5">
@@ -54,11 +531,14 @@
   <div class="col mb-3 px-5"><h5>Hitta </h5>
     <ul class="nav flex-column">
       <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Hem</a></li>
-      <li class="nav-item mb-2"><a href="index.html#kaffeparty-who" class="nav-link p-0 text-body-secondary">Vilka är vi?</a>
+      <li class="nav-item mb-2"><a href="index.html#kaffeparty-who" class="nav-link p-0 text-body-secondary">Vilka är
+        vi?</a>
       </li>
-      <li class="nav-item mb-2"><a href="index.html#kaffeparty-what" class="nav-link p-0 text-body-secondary">Vad gör vi?</a>
+      <li class="nav-item mb-2"><a href="index.html#kaffeparty-what" class="nav-link p-0 text-body-secondary">Vad gör
+        vi?</a>
       </li>
-      <li class="nav-item mb-2"><a href="index.html#kaffeparty-why" class="nav-link p-0 text-body-secondary">Varför oss?</a>
+      <li class="nav-item mb-2"><a href="index.html#kaffeparty-why" class="nav-link p-0 text-body-secondary">Varför
+        oss?</a>
       </li>
     </ul>
   </div>
@@ -77,12 +557,14 @@
     <ul class="nav flex-column">
       <li class="nav-item mb-2"><a href="products.html" class="nav-link p-0 text-body-secondary">Vår produkter</a></li>
       <li class="nav-item mb-2"><a href="products.html#fika" class="nav-link p-0 text-body-secondary">Fika</a></li>
-      <li class="nav-item mb-2"><a href="products.html#konferens" class="nav-link p-0 text-body-secondary">konferens</a></li>
-      <li class="nav-item mb-2"><a href="products.html#maskiner" class="nav-link p-0 text-body-secondary">Maskiner</a></li>
-      <li class="nav-item mb-2"><a href="products.html#baristor" class="nav-link p-0 text-body-secondary">Baristor</a></li>
+      <li class="nav-item mb-2"><a href="products.html#konferens" class="nav-link p-0 text-body-secondary">konferens</a>
+      </li>
+      <li class="nav-item mb-2"><a href="products.html#maskiner" class="nav-link p-0 text-body-secondary">Maskiner</a>
+      </li>
+      <li class="nav-item mb-2"><a href="products.html#baristor" class="nav-link p-0 text-body-secondary">Baristor</a>
+      </li>
     </ul>
   </div>
 </footer>
-
 </body>
 </html>

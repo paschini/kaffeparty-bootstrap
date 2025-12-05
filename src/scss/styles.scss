@@ -1,10 +1,10 @@
 /* Coffee theme Bootstrap colors */
-$primary: #A6C3A4;
+$primary: #503e32;
 $secondary: #A77F5B;
-$success: #6F8F6A;
+$success: #317327;
 $info: #C8A68C;
-$warning: #F5D08A;
-$danger: #D96161;
+$warning: #916001;
+$danger: #d21818;
 $light: #2B241F;
 $dark: #8D9B86FF;
 
@@ -31,6 +31,7 @@ $bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
   --coffee-surface: #2e3b2c;
   --coffee-surface-dark: #8D9B86FF;
   --coffee-text: #F8F5F2;
+  --coffee-accent-light: #503e32;
   --coffee-accent: #C8A68C;
   --coffee-accent-dark: #A77F5B;
 }
@@ -42,7 +43,6 @@ html, body {
 
 body {
   background-color: var(--coffee-bg);
-  color: var(--coffee-text);
 }
 
  header.header-logo {
@@ -53,14 +53,13 @@ body {
 nav.navbar {
   color: var(--coffee-accent) !important;
   background-color: var(--coffee-surface) !important;
-  padding-bottom: 0;
   top: 60px;
 }
 
 nav a.nav-link {
   color: var(--coffee-accent) !important;
-  margin: -16px 0 !important;
-  padding: 15px 40px !important;
+  margin: -15px 0 !important;
+  padding: 16px 40px !important;
   border-radius: 0 !important;
   &:hover {
     background-color: var(--coffee-accent-dark) !important;
@@ -74,6 +73,11 @@ nav a.nav-link.active {
 
 nav li.nav-item {
   margin: 0;
+}
+
+#navbar-products {
+  top: 115px;
+  border-top: 1px solid var(--coffee-accent-light);
 }
 
 a {
@@ -122,7 +126,23 @@ footer .text-body-secondary {
 }
 
 .card {
-  background-color: var(--coffee-surface-dark) !important;
+  background-color: var(--coffee-accent-light) !important;
   & a { color: var(--coffee-text) !important; }
 }
 
+.card-img-top {
+  object-fit: cover;
+  max-height: 350px;
+}
+
+.card-body {
+  padding: 0.8rem !important;
+}
+
+.card-footer {
+  padding: 0.6rem 0.8rem !important;
+}
+
+h4 {
+  scroll-margin-top: 500px;
+}
