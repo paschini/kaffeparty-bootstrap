@@ -25,7 +25,10 @@ $bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
   --coffee-accent-dark: #6B4F3A;
 }
 
-[data-theme="dark"] {
+
+// ändra färger till mörkt tema vid <html lang="sv-SE" data-bs-theme="dark">
+// data-bs-theme="light" använder :root färger
+[data-bs-theme="dark"] {
   /* Dark theme */
   --coffee-bg: #2B241F;
   --coffee-surface: #2e3b2c;
