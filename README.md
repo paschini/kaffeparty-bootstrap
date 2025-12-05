@@ -5,7 +5,7 @@
 Ni har fått i uppdrag av ett nytänkande ungt företag vars kärnprocess är att leverera kaffe och kaffemaskiner till 
 andra företag. De anordnar dessutom ett mycket omtyckt kaffeparty-event som både privatpersoner och företag kan 
 beställa. På kaffepartyt presenteras en mängd olika kaffesorter som de får smaka tillsammans med mörk choklad och ges 
-tillfälle att köpa produkterna. 
+tillfälle att köpa produkterna.
 
 Ni skall skapa en webbsida med tre sidor: “Index”, “Produkter” och “Om Oss”
 
@@ -27,13 +27,13 @@ googlesökning ger bra bilder för en prototyp, men om ni har ont om tid eller l
 
 **Produkter:**
 - [x] Separera Kaffeparty och Kaffemaskiner. 
-- [ ] Lista kaffemaskiner, olika modeller med texter och bild. 
+- [x] Lista kaffemaskiner, olika modeller med texter och bild. 
 - [x] Layouten ska vara delad i två delar. 
-  - [ ] Kaffemaskiner 
-    - [ ] Listar kaffemaskiner i ett rutnät 
-    - [ ] Information, modell och pris syns tydligt 
-  - [ ] Kaffeparty 
-    - [ ] Uppdelad i två delar: Företag och Privatpersoner
+  - [x] Kaffemaskiner 
+    - [x] Listar kaffemaskiner i ett rutnät 
+    - [x] Information, modell och pris syns tydligt 
+  - [x] Kaffeparty 
+    - [x] Uppdelad i två delar: Företag och Privatpersoner
 
 **Om oss/Kontakt:**
 - [x] Innehåller mer information om företaget. 
@@ -43,3 +43,32 @@ googlesökning ger bra bilder för en prototyp, men om ni har ont om tid eller l
 
 - [x] Sidan skall fungera lika bra på mobil som på en vanlig dator. Denna övning är medvetet lämnad ganska öppen och är tänkt
 som en möjlighet att experimentera lite och testa olika delar av bootstrap.
+
+## Exekvering - dev mode
+I dev mode ska man se FOUC (Flash Of Unstyled Content) "bug". 
+Det händer för att Vite ska kompilerar sidorna samtidigt att de laddar i dev mode.
+
+Det händer inte i produktion mode.
+
+```bash
+
+npm install
+npm run dev
+```
+
+## Exekvering - prod mode preview
+```bash
+
+npm install
+npm run build
+npm run preview
+```
+
+## Deploy
+Kopiera hela innehållet i `dist` mappen till din webbserver.
+Om det fins inte en `dist` mapp:
+```bash
+
+npm install
+npm run build
+```
