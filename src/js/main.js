@@ -6,7 +6,7 @@ import * as bootstrap from 'bootstrap'
 
 // initMDB({ Scrollspy });
 
-// Kollar användarepreferens av teman när sidan laddas och bytter till det
+// Kollar användarepreferens av teman när sidan laddas och byttar till det
 const defaultTheme = document.documentElement.getAttribute("data-bs-theme");
 const userPreference = window.matchMedia("(prefers-color-scheme: dark)") ? "dark" : "light";
 const storedTheme = localStorage.getItem("theme");
