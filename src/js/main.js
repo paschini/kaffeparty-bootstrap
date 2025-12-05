@@ -1,6 +1,5 @@
 // Import our custom CSS
 import '../scss/styles.scss'
-// import { Scrollspy, initMDB } from "mdb-ui-kit";
 
 // Import all of Bootstrap’s JS
 import * as bootstrap from 'bootstrap'
